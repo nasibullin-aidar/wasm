@@ -1,0 +1,57 @@
+.select
+  width: 290px
+  cursor: pointer
+  position: relative
+
+  &__label
+    font-size: 12px
+    color: #4F4F4F
+    line-height: 18px
+    margin-bottom: 6px
+    margin-left: 16px
+    text-align: left
+    margin-top: 25px
+
+  &__header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    background: #F2F2F2
+    text-align: left
+
+  &__icon
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 17px
+    height: 10px
+    text-align: center
+    margin-right: 15px
+
+  &__current
+    font-size: 14px
+    line-height: 21px
+    padding: 10px 16px
+
+  &__body
+    display: flex
+    flex-direction: column
+    background: #F2F2F2
+    flex-basis: 45%
+    position: absolute
+    left: 0
+    top: 100%
+    right: 0
+
+  &__item
+    font-size: 14px
+    line-height: 21px
+    padding: 10px 16px
+    text-align: left
+    width: 100%
+    &:hover
+      background: #a3a3a3
+
+@media screen and ( max-width: 1000px )
+  .select
+    width: 100%

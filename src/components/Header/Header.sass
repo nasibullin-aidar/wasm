@@ -1,0 +1,43 @@
+.header
+  margin: auto
+  &__section-title
+    margin: 32px 0
+
+.section-title
+  text-align: left
+  font-size: 36px
+  line-height: 48px
+  font-weight: 600
+
+.selectors
+  display: flex
+  width: 42%
+  justify-content: space-between
+  margin-bottom: 40px
+  flex-wrap: wrap
+
+@media screen and ( max-width: 1600px )
+  .selectors
+    width: 44%
+@media screen and ( max-width: 1500px )
+  .selectors
+    width: 50%
+@media screen and ( max-width: 1350px )
+  .selectors
+    width: 55%
+@media screen and ( max-width: 1180px )
+  .selectors
+    width: 60%
+@media screen and ( max-width: 1100px )
+  .selectors
+    width: 65%
+@media screen and ( max-width: 1000px )
+  .header
+    margin: auto
+    &__section-title
+      margin-bottom: 0
+@media screen and ( max-width: 600px )
+  .selectors
+    width: 100%
+  .select
+    margin-bottom: 20px

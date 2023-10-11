@@ -1,0 +1,63 @@
+.card
+  display: flex
+  flex-direction: column
+  width: 22%
+  border: 1px solid #EEEEEE
+  
+  margin-bottom: 40px
+  &__bottom-row
+    width: 90%
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin: auto
+    margin-bottom: 9px
+  &__block-selectors
+    display: flex
+  &__block-price
+    display: flex
+  &__code
+    width: 90%
+    margin: auto
+    margin-bottom: 5px
+    text-align: left
+    font-size: 10px
+    color: #888888
+  &__title
+    text-align: start
+    color: #000000
+    font-size: 16px
+    font-weight: 500px
+    margin: auto
+    width: 90%
+  &__price
+    font-size: 16px
+    &--old
+      margin-right: 10px
+      text-decoration: line-through
+      color: #888888
+  &__img
+    width: 80%
+    margin: auto
+  &__icons
+    font-size: 24px
+    text-align: center
+    align-items: center
+  &__block-selectors
+    width: 22%
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+@media screen and ( max-width: 1100px )
+  .card
+    width: 30%
+@media screen and ( max-width: 800px )
+  .card
+    width: 45%
+@media screen and ( max-width: 600px )
+  .card
+    margin: auto
+    width: 90%
+    margin-bottom: 20px
+   
